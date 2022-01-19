@@ -1,0 +1,76 @@
+/*html{
+   background-color: lightgoldenrodyellow;
+}*/
+body{
+   background-image: url(./BackImagG.gif);
+   background-repeat: no-repeat;
+   background-attachment:scroll;
+   background-size:cover;
+}
+#texto{
+   background-color: rgb(223, 236, 243);
+}
+#texto {
+   position: absolute;
+   top: 69%;
+   left: 32%;
+   transform: translate(-50%, -50%);
+   font-size: x-large;
+   font-weight: bold;
+   text-align:center;
+   resize: none;
+}
+
+#NombreB{
+   border: none;
+   color: rgb(255, 255, 255);
+   background-color: rgb(141, 196, 226);
+   position: absolute;
+   top: 80%;
+   left: 43%;
+   transform: translate(-50%, -50%);
+   display: inline-block;
+   font-size:xx-large;
+   font-weight: bold;
+   padding: 19px;
+   transition-duration: 0.4s;
+   cursor: pointer; 
+   width: 300px;
+   height: 100px;
+   box-shadow: 8px 10px 10px 1px rgba(0,0,0,0.5);
+}
+
+#NombreB:hover {
+   color: rgb(141, 196, 226);
+ }
+ #NombreB:hover {
+   background-color: rgb(255, 255, 255);
+ }
+ 
+.TextoO{
+   font-size: x-large;
+   position: absolute;
+   top: 3%;
+   left: 10%;
+}
+
+#Texto_0{
+   background-color: rgb(223, 236, 243);
+   border: none;
+   text-align:center;
+   color: rgb(0, 0, 0);
+   border: 1px solid #ffffff;
+   width: 840px;
+   box-shadow: 8px 10px 10px 1px rgba(0,0,0,0.5);
+}
+#Texto_1{
+   color: rgb(0, 0, 0);
+}
+#Texto_2{
+   color: rgb(0, 0, 0);
+}
+
+#Texto_3{
+   color: rgb(0, 0, 0);
+}
+
